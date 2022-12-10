@@ -1,0 +1,58 @@
+body {
+  padding: 30px 150px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+nav img{
+  height: 40px;
+
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#heroHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+#print{
+  display: flex;
+  flex-direction: row;
+}
+
+#print img{
+  height: 15px;
+}
+
+#chocolatePizza,
+#listBg {
+  width: 100%;
+}
+
+.authorContainer {
+  display: flex;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.footerCompany {
+  text-align: center;
+
+}
